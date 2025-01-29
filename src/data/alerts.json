@@ -22,17 +22,12 @@
   {
     "name": "InactiveLicensedUsers",
     "label": "Alert on licensed users that have not logged in for 90 days",
-    "requiresInput": true,
-    "inputType": "switch",
-    "inputLabel": "Exclude disabled users?",
-    "inputName": "InactiveLicensedUsersExcludeDisabled",
     "recommendedRunInterval": "1d"
   },
   {
     "name": "QuotaUsed",
     "label": "Alert on % mailbox quota used",
     "requiresInput": true,
-    "inputType": "textField",
     "inputLabel": "Enter quota percentage",
     "inputName": "QuotaUsedQuota",
     "recommendedRunInterval": "4h"
@@ -41,9 +36,8 @@
     "name": "SharePointQuota",
     "label": "Alert on % SharePoint quota used",
     "requiresInput": true,
-    "inputType": "textField",
     "inputLabel": "Enter quota percentage",
-    "inputName": "SharePointQuota",
+    "inputName": "SharePointQuotaQuota",
     "recommendedRunInterval": "4h"
   },
   {
@@ -87,16 +81,6 @@
     "recommendedRunInterval": "1d"
   },
   {
-    "name": "AppleTerms",
-    "label": "Alert on new Apple Business Manager terms",
-    "recommendedRunInterval": "30d"
-  },
-  {
-    "name": "AppCertificateExpiry",
-    "label": "Alert on expiring application certificates",
-    "recommendedRunInterval": "1d"
-  },
-  {
     "name": "ApnCertExpiry",
     "label": "Alert on expiring APN certificates",
     "recommendedRunInterval": "1d"
@@ -120,11 +104,6 @@
     "name": "DeviceCompliance",
     "label": "Alert on device compliance issues",
     "recommendedRunInterval": "4h"
-  },
-  {
-    "name": "BreachAlert",
-    "label": "Alert on (new) potentially breached passwords. Generates an alert if a password is found to be breached.",
-    "recommendedRunInterval": "7d"
   },
   {
     "name": "HuntressRogueApps",
